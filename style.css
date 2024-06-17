@@ -110,10 +110,7 @@ section{
     color:#ffffff;
 }
 
-.header .logo i{
-    color:#222;
-    padding-right: .5rem;
-}
+
 
 .header .navbar a{
     font-size: 1.7rem;
@@ -202,6 +199,7 @@ section{
 
 .products .box-container .box:hover  .icons{
     top: 0;
+   
 }
 
   .products .box-container .box .icons {
@@ -363,52 +361,36 @@ section{
 }
 
 .footer .box-container .box p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #000;
     padding-bottom: .5rem;
 }
 
 .footer .box-container .box a{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
+    font-weight: 400;
     color: #000;
     padding:1rem 0;
     display:block;
 }
 
-.footer .box-container .box a:hover{
+.footer .box-container .box a:hover {
     color: #fff;
 }
 
-.footer .box-container .box a:hover i{
+.footer .box-container .box a:hover i {
     padding-right: 2rem;
+    color: whitesmoke;
 }
 
-.footer .box-container .box a i{
+.footer .box-container .box a i {
     padding-right: .5rem;
     color: #000;
 }
 
-.footer .box-container .box form input[type="email"]{
-    width: 100%;
-    padding:1rem 1.2rem;
-    font-size: 1.6rem;
-    color: #000;
-    margin: 1rem 0;
-    text-transform: none;
-}
-
-.footer .box-container .box .payments{
-    width: 100%;
-    margin-top: 2rem;
-}
 
 
-.credit{
-    text-align: center;
-    background:var(--brown);
-    color: #000;
-    font-size:2rem;
-}
+
 
 
 
