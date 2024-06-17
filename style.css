@@ -264,6 +264,132 @@ section{
     color: var(--brown);
   }
 
+
+
+/*custom cake*/
+
+/*header custom container*/
+.custom .custom-container{
+    border: 3px solid black;
+    border-color: var(--brown);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title-container h1{
+    font-size: 5rem;
+    color: #222;
+}
+
+.title-container h1 span {
+    color: var(--brown);
+}
+
+.title-container h1:hover{
+    transform: translatey(-2rem);
+    cursor: default;
+    border-bottom: 2px groove #222;
+}
+
+/* border  custom container*/
+
+.custom .custom-container .br{
+    border-bottom: 1rem  solid pink;
+}
+
+.custom .custom-container .br h2{
+    font-family: "Playwrite SK", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: x-large;
+    color: #222;
+}
+
+
+.custom .custom-container .phrase-container .box
+{
+    padding:1rem 1.2rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid rgba(0,0,0,0.7);
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.7);
+    color: #222;
+    text-transform:none;
+    margin: .7rem 0;
+    width: 100%;
+    height: 6.3rem;
+}
+
+/*********/
+.gout {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.radio-group {
+    display: flex;
+    gap: 1.3rem;
+}
+
+.radio-label {
+    min-width: 15rem;
+    min-height: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--brown);
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    color: #222;
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.radio-label:hover {
+    background-color: var(--brown);
+    color: white;
+}
+
+.radio-group input[type="radio"] {
+    display: none;
+}
+
+/* Different background colors based on radio button value */
+#radio1:checked + .radio-label,
+#radio1 + .radio-label:hover {
+    background-color: brown; /* Chocolat */
+    color: white;
+    border-color: yellowgreen;
+}
+
+#radio2:checked + .radio-label,
+#radio2 + .radio-label:hover {
+    background-color: var(--brown); /* Fraise */
+    color: #fff;
+    border-color: yellowgreen;
+}
+
+#radio3:checked + .radio-label,
+#radio3 + .radio-label:hover {
+    background-color: #93C572; /* Pistache */
+    color: white;
+    border-color: var(--brown);
+}
+
+
+
+
+
+
+
 .contact .icons-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
